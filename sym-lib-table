@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2x10_Header_2_54")(type "KiCad")(uri "${KIPRJMOD}/VisualUserImports/ExpansionBoardSymbols/2x10_Header_2_54.kicad_sym")(options "")(descr ""))
+  (lib (name "Button_Expansion")(type "KiCad")(uri "${KIPRJMOD}/VisualUserImports/ExpansionBoardSymbols/Button_Expansion.kicad_sym")(options "")(descr ""))
+)
