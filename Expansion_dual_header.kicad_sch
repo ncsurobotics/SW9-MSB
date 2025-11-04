@@ -2190,17 +2190,6 @@
 		)
 		(uuid "22315150-ef59-4b77-8ed5-5a9663d890ea")
 	)
-	(hierarchical_label "S1PWM"
-		(shape output)
-		(at 274.32 57.15 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "348c6859-cdbc-4ced-aec4-25ac1c9d0750")
-	)
 	(hierarchical_label "SDA"
 		(shape input)
 		(at 73.66 74.93 270)
@@ -2255,28 +2244,6 @@
 			(justify right)
 		)
 		(uuid "93140bd1-8490-4ac8-acbd-3250f14e5975")
-	)
-	(hierarchical_label "S2PWM"
-		(shape output)
-		(at 270.51 57.15 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c898cb97-1a2b-4e8a-ab4c-dae81c1611fe")
-	)
-	(hierarchical_label "S3PWM"
-		(shape output)
-		(at 266.7 57.15 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ecf5428f-42be-4386-ab89-cc743209dceb")
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -3486,6 +3453,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "S1PWM" input
+			(at 274.32 57.15 270)
+			(uuid "7888fdb2-6722-4c57-94f9-61d357544884")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "S2PWM" input
+			(at 270.51 57.15 270)
+			(uuid "72d01429-26ba-4985-9a7e-a9042253d21b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "S3PWM" input
+			(at 266.7 57.15 270)
+			(uuid "2fc1639b-f0d5-44fb-b596-8f1de08a7c0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

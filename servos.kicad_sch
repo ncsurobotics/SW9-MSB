@@ -856,16 +856,6 @@
 		)
 		(uuid "c21a2307-5e4a-4de0-b553-c9835aa33738")
 	)
-	(label "SERVO2_CTRL"
-		(at 85.09 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0aba403f-1ae9-49e9-9a56-fdd4d0354c8f")
-	)
 	(label "SERVO1_CTRL"
 		(at 85.09 57.15 0)
 		(effects
@@ -918,6 +908,17 @@
 			(justify right)
 		)
 		(uuid "d36527b0-851c-47e7-9500-ce3226865c64")
+	)
+	(hierarchical_label "test2"
+		(shape input)
+		(at 50.8 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fbaefdbe-bcb3-4b31-bf9c-53f43e61379d")
 	)
 	(symbol
 		(lib_id "2024-02-03_17-19-22:901200763")
