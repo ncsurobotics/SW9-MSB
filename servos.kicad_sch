@@ -744,6 +744,16 @@
 		)
 		(uuid "05010aad-18f1-4e8a-94fc-6a83d867b8f9")
 	)
+	(text "Enable/disable cutting power with physical and software switches\nMOSFETS use for switches for electromagnet and dropper\ncontrolling each sevo takes one slot, electromagnet takes 1 slot, cutting power takes 1 slot\n*grabber likely has one servo,likely two electromagnets, one servo for each electromagnet"
+		(exclude_from_sim no)
+		(at 160.02 82.042 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1a595eb6-0fd9-4769-952f-003d8b897a2d")
+	)
 	(text "Servo 3 Header"
 		(exclude_from_sim no)
 		(at 80.01 110.49 0)
