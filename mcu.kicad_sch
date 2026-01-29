@@ -5984,7 +5984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ExpansionBoardFootprints:Expansion Button PTS 647 SN50 SMTR2 LFS"
+		(property "Footprint" "AquaPartsLib:SW_PTS_647_SN50_SMTR2_LFS"
 			(at 118.11 156.21 0)
 			(effects
 				(font
